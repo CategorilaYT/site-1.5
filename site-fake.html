@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Categorila</title>
+    <link rel="stylesheet" href="nav.css">
+    <style>
+        /* Estilos para o botão */
+        button {
+            padding: 15px 30px;
+            background-color: #4caf50;
+            color: #fff;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: background-color 0.3s ease-in-out;
+            display: flex;
+            
+        }
+
+            /* Estilos para o contêiner */
+        .botao {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        /* Efeito de hover */
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="logo"><img src="img/channels4_profile-removebg-preview_resized.png" alt="logo"></div>
+        
+        <!--Guardado coloque o div para funcionar-->
+        <div class="links">
+            <ul class="nav-itens">
+                <h1>Faça login para continuar.</h1>
+            </ul>
+        </div> 
+
+    </nav>
+    
+    <div class="botao">
+        <button type="button" onclick="login()">Login</button>
+    </div>
+
+    
+<script>
+    function login() {
+        // Substitua 'caminho/para/sua/pagina.html' pelo caminho correto para sua página HTML
+        window.location.href = 'cadastro.html';
+    }
+</script>
+
+</body>
+</html>
